@@ -10,7 +10,7 @@
     if ($row['username'] == $username && !empty($username) && $row['password'] && !empty($password) == $password){
         $_SESSION['loggedin'] = true;
         $_SESSION['username'] = $username;
-        header('location: https://portal.boompje5.nl');
+        header('location: https://portal.boompje5.nl/');
     } else {
         echo '<script language="javascript" type="text/javascript">alert("Gebruikersnaam en/of wachtwoord onjuist.");document.location.href="https://auth.boompje5.nl"</script>';
     }

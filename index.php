@@ -32,7 +32,7 @@
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
-				<form class="login100-form validate-form">
+				<form class="login100-form validate-form" action="assets/php/accessprocess.php" method="POST">
 					<span class="login100-form-title p-b-26">
 						Welkom
 					</span>
@@ -41,7 +41,7 @@
 					</span>
 
 					<div class="wrap-input100">
-						<input class="input100" type="text" name="email">
+						<input class="input100" type="text" name="username">
 						<span class="focus-input100" data-placeholder="Gebruikersnaam"></span>
 					</div>
 
@@ -49,7 +49,7 @@
 						<span class="btn-show-pass">
 							<i class="zmdi zmdi-eye"></i>
 						</span>
-						<input class="input100" type="password" name="pass">
+						<input class="input100" type="password" name="passwd">
 						<span class="focus-input100" data-placeholder="Wachtwoord"></span>
 					</div>
 
