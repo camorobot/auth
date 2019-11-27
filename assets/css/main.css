@@ -39,7 +39,10 @@
 
 body, html {
 	height: 100%;
-	font-family: Poppins-Regular, sans-serif;
+  font-family: Poppins-Regular, sans-serif;
+  background-image: url("../images/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /*---------------------------------------------*/
@@ -178,7 +181,6 @@ img{
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #f2f2f2;  
 }
 
 .wrap-login100 {
