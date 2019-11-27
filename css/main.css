@@ -137,6 +137,10 @@ iframe {
 	border: none !important;
 }
 
+img{
+  width: 200px;
+  height: 200px;
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ Utility ]*/
